@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/customerSupport"
+        android:icon="@drawable/support_top"
+        android:title=""
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/notification_top"
+        android:title=""
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/addProperty"
+        android:icon="@drawable/addproperty_top"
+        android:title="Add Property"
+        app:showAsAction="ifRoom" />
+
+</menu>

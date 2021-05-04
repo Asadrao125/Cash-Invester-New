@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardMaxElevation="10dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_toStartOf="@id/imgEdit"
+            android:id="@+id/imgSearch"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search_savesearh" />
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_toStartOf="@id/imgDelete"
+            android:id="@+id/imgEdit"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/edit_savesearh" />
+
+        <ImageView
+            android:padding="10dp"
+            android:id="@+id/imgDelete"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delete_savesearh" />
+
+        <TextView
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="10dp"
+            android:layout_toStartOf="@id/imgSearch"
+            android:textSize="12sp"
+            android:id="@+id/tvCreatedAt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTitle"
+            android:text="Created at" />
+
+        <TextView
+            android:layout_marginRight="10dp"
+            android:layout_toStartOf="@id/imgSearch"
+            android:layout_alignParentStart="true"
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
